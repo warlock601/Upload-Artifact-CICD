@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Force failure step
+        run: |
+          echo "This step will fail now."
+          exit 1
